@@ -36,9 +36,9 @@ public class GreedySettlementTest {
         }
     }
 
-//    private List<Expense> createSimpleExpenses() {
-//        return List.of(expense(100.0, Map.of(1L, 50.0, 2L, 50.0), Map.of(1L, 100.0)));
-//    }
+    private List<Expense> createSimpleExpenses() {
+        return List.of(expense(100.0, Map.of(1L, 50.0, 2L, 50.0), Map.of(1L, 100.0)));
+    }
 
     private List<Expense> createSimpleExpenses2() {
         return List.of(expense(110.0, Map.of(1L, 40.0, 2L, 50.0, 3L, 20.0), Map.of(1L, 110.0)));
